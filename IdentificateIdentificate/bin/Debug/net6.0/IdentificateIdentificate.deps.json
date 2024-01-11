@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IdentificateIdentificate/1.0.0": {
+        "runtime": {
+          "IdentificateIdentificate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IdentificateIdentificate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\bin\Debug\net6.0\IdentificateIdentificate.deps.json
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\bin\Debug\net6.0\IdentificateIdentificate.dll
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\bin\Debug\net6.0\IdentificateIdentificate.pdb
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.csproj.AssemblyReference.cache
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.AssemblyInfoInputs.cache
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.AssemblyInfo.cs
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.csproj.CoreCompileInputs.cache
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.dll
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\refint\IdentificateIdentificate.dll
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\IdentificateIdentificate.pdb
+C:\Users\Caby\Documents\GitHub\Mods\LethalCompany\IdentificateIdentificate\IdentificateIdentificate\obj\Debug\net6.0\ref\IdentificateIdentificate.dll
