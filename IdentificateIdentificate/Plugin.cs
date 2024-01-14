@@ -3,6 +3,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using IdentificateIdentificate.Patches;
 using System;
+using UnityEngine;
 
 namespace IdentificateIdentificate
 {
@@ -17,7 +18,10 @@ namespace IdentificateIdentificate
 
         private static IdentificateIdentificateBase instance;
 
-        internal ManualLogSource mls;
+        internal static ManualLogSource mls;
+
+        internal static AudioClip[] SoundFX;
+        internal static AssetBundle Bundle;
 
         void Awake()
         {
@@ -32,6 +36,21 @@ namespace IdentificateIdentificate
 
             harmony.PatchAll(typeof(IdentificateIdentificateBase));
             harmony.PatchAll(typeof(PlayerControllerBPatch));
+
+            SoundFX = new AudioClip[1];
+            string FolderLocation = instance.Info.Location;
+            FolderLocation = FolderLocation.TrimEnd("IdentificateIdentificateBase.dll".ToCharArray());
+            Bundle = AssetBundle.LoadFromFile(FolderLocation + "identificate");
+
+            if (Bundle != null)
+            {
+                mls.LogInfo("(º)< asset bundle loaded");
+                SoundFX = Bundle.LoadAllAssets<AudioClip>();
+            }
+            else
+            {
+                mls.LogInfo("(º`)< Error loading asset bundle");
+            }
         }
     }
 }
