@@ -12,6 +12,8 @@
           "Assembly-CSharp": "0.0.0.0",
           "BepInEx": "5.4.22.0",
           "Unity.InputSystem": "1.7.0.0",
+          "Unity.Netcode.Components": "0.0.0.0",
+          "Unity.Netcode.Runtime": "0.0.0.0",
           "UnityEngine.AnimationModule": "0.0.0.0",
           "UnityEngine.AssetBundleModule": "0.0.0.0",
           "UnityEngine.AudioModule": "0.0.0.0",
@@ -51,6 +53,22 @@
           "Unity.InputSystem.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Unity.Netcode.Components/0.0.0.0": {
+        "runtime": {
+          "Unity.Netcode.Components.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Netcode.Runtime/0.0.0.0": {
+        "runtime": {
+          "Unity.Netcode.Runtime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -115,14 +133,6 @@
           "MonoMod.RuntimeDetour.dll": {
             "assemblyVersion": "22.1.29.1",
             "fileVersion": "22.1.29.1"
-          }
-        }
-      },
-      "Unity.Netcode.Runtime/0.0.0.0": {
-        "runtime": {
-          "Unity.Netcode.Runtime.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -246,14 +256,6 @@
           }
         }
       },
-      "Unity.Netcode.Components/0.0.0.0": {
-        "runtime": {
-          "Unity.Netcode.Components.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "UnityEngine.VideoModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.VideoModule.dll": {
@@ -361,6 +363,62 @@
       "UnityEngine.UIElementsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.UIElementsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Mathematics/1.0.0.0": {
+        "runtime": {
+          "Unity.Mathematics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Unity.Multiplayer.Tools.NetStats/0.0.0.0": {
+        "runtime": {
+          "Unity.Multiplayer.Tools.NetStats.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Multiplayer.Tools.MetricTypes/0.0.0.0": {
+        "runtime": {
+          "Unity.Multiplayer.Tools.MetricTypes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Multiplayer.Tools.NetworkSolutionInterface/0.0.0.0": {
+        "runtime": {
+          "Unity.Multiplayer.Tools.NetworkSolutionInterface.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Networking.Transport/0.0.0.0": {
+        "runtime": {
+          "Unity.Networking.Transport.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Burst/0.0.0.0": {
+        "runtime": {
+          "Unity.Burst.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Multiplayer.Tools.NetStatsReporting/0.0.0.0": {
+        "runtime": {
+          "Unity.Multiplayer.Tools.NetStatsReporting.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -678,62 +736,6 @@
           }
         }
       },
-      "Unity.Multiplayer.Tools.NetStats/0.0.0.0": {
-        "runtime": {
-          "Unity.Multiplayer.Tools.NetStats.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Multiplayer.Tools.MetricTypes/0.0.0.0": {
-        "runtime": {
-          "Unity.Multiplayer.Tools.MetricTypes.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Multiplayer.Tools.NetworkSolutionInterface/0.0.0.0": {
-        "runtime": {
-          "Unity.Multiplayer.Tools.NetworkSolutionInterface.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Networking.Transport/0.0.0.0": {
-        "runtime": {
-          "Unity.Networking.Transport.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Burst/0.0.0.0": {
-        "runtime": {
-          "Unity.Burst.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Multiplayer.Tools.NetStatsReporting/0.0.0.0": {
-        "runtime": {
-          "Unity.Multiplayer.Tools.NetStatsReporting.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Mathematics/1.0.0.0": {
-        "runtime": {
-          "Unity.Mathematics.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Unity.VisualEffectGraph.Runtime/0.0.0.0": {
         "runtime": {
           "Unity.VisualEffectGraph.Runtime.dll": {
@@ -858,6 +860,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Unity.Netcode.Components/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Netcode.Runtime/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.AnimationModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -894,11 +906,6 @@
       "sha512": ""
     },
     "MonoMod.RuntimeDetour/22.1.29.1": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Netcode.Runtime/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -978,11 +985,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.Netcode.Components/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "UnityEngine.VideoModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -1049,6 +1051,41 @@
       "sha512": ""
     },
     "UnityEngine.UIElementsModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Mathematics/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Multiplayer.Tools.NetStats/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Multiplayer.Tools.MetricTypes/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Multiplayer.Tools.NetworkSolutionInterface/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Networking.Transport/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Burst/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Multiplayer.Tools.NetStatsReporting/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1244,41 +1281,6 @@
       "sha512": ""
     },
     "UnityEngine.ARModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Multiplayer.Tools.NetStats/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Multiplayer.Tools.MetricTypes/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Multiplayer.Tools.NetworkSolutionInterface/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Networking.Transport/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Burst/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Multiplayer.Tools.NetStatsReporting/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Mathematics/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

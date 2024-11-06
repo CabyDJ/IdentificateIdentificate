@@ -1,6 +1,7 @@
 ﻿using BepInEx.Logging;
 using GameNetcodeStuff;
 using HarmonyLib;
+using IdentificateIdentificate.Managers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,13 +17,13 @@ namespace IdentificateIdentificate.Patches
     internal class PlayerControllerBPatch
     {
 
-        //[HarmonyPatch("Emote2_performed")]
-        [HarmonyPatch("StartPerformingEmoteClientRpc")]
         [HarmonyPrefix]
+        [HarmonyPatch("Emote2_performed")]
+        //[HarmonyPatch("StartPerformingEmoteClientRpc")]
         //[HarmonyPostfix]
 
-        //static void Emote2_performed_Patch(PlayerControllerB __instance, ref InputAction.CallbackContext context)
-        static void StartPerformingEmoteClientRpc_Patch(PlayerControllerB __instance)
+        static void Emote2_performed_Patch(PlayerControllerB __instance/*, ref InputAction.CallbackContext context*/)
+        //static void StartPerformingEmoteClientRpc_Patch(PlayerControllerB __instance)
         //static void UpdatePlayerAnimationClientRpc_Patch(PlayerControllerB __instance, int animationState, float animationSpeed)
         {
             //__instance.movementAudio.PlayOneShot(StartOfRound.Instance.hitPlayerSFX);
@@ -44,8 +45,8 @@ namespace IdentificateIdentificate.Patches
             //    }
             //}
 
-            __instance.movementAudio.PlayOneShot(IdentificateIdentificateBase.SoundFX[0]);
-
+            //__instance.movementAudio.PlayOneShot(IdentificateIdentificateBase.SoundFX[0]);
+            NetworkManagerIdentificate.instance.RequestPlayIdentificateServerRpc();
         }
     }
 }
